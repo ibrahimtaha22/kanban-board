@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* --prefix-identifier: value; */
+  /* Example: --color-main-purple: #635FC7; */
+
+  /* 
+  - prefix: Tells Tailwind the type (like color, font, or text).
+  - identifier: Your custom name used in utility classes (like bg-main-purple).
+  - value: The actual CSS value (like a hex code, font name, or size).
+*/
+
+  /* 1. الخط الأساسي */
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+
+  /* 2. الألوان */
+  --color-main-purple: #635fc7;
+  --color-main-purple-hover: #a8a4ff;
+  --color-black: #000112;
+  --color-very-dark-grey: #1e1e1e;
+  --color-dark-grey: #2b2c37;
+  --color-lines: #3e3f4e;
+  --color-medium-grey: #828fa3;
+  --color-lines-light: #e4ebfa;
+  --color-light-grey: #f4f7fd;
+  --color-red: #ea5555;
+  --color-red-hover: #ff9898;
+
+  /* 3. أحجام الخطوط */
+  --text-heading-s: 0.75rem;
+  --text-heading-m: 0.9rem;
+  --text-heading-l: 1.125rem;
+  --text-heading-xl: 1.5rem;
+  --text-body-m: 0.75rem;
+  --text-body-l: 0.8125rem;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+}
